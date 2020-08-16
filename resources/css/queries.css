@@ -45,6 +45,7 @@
     .row,
     .hero-text-box { padding: 0 4%; }
 
+    /***---main nav visibility---***/
     .main-nav { display: none; }
 
     .col {
