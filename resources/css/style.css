@@ -239,6 +239,18 @@ a:active {
     border-bottom: 2px solid #e67e22;
 }
 
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
+
 .sticky {
     position: fixed;
     top: 0;
@@ -253,7 +265,7 @@ a:active {
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
-    padding: 16px 0;
+    padding: 10px 0;
     color: #555;
 
 }
