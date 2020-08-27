@@ -72,4 +72,21 @@ $(document).ready(function () {
             icon.removeClass('ion-close-round');
         }
     })
+
+    /** maps **/
+    new GMaps({
+        div: '.map',
+        lat: 35.8078991,
+        lng: 50.9141515,
+        zoom: 12
+    });
+
+    // map.addMarker({
+    //     lat: 35.8078991,
+    //     lng: 50.9141515,
+    //     title: 'kARAJ',
+    //     infoWindow: {
+    //         content: '<p>OurIRAN HQ</p>'
+    //     }
+    // });
 });
